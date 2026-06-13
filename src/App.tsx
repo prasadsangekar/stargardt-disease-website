@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   Navigate,
@@ -27,7 +27,7 @@ function FocusManager({ children }: { children: React.ReactNode }) {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <FocusManager>
         <Routes>
           <Route element={<Layout />}>
@@ -40,7 +40,7 @@ function App() {
           </Route>
         </Routes>
       </FocusManager>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
