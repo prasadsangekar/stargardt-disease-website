@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rs-001",
+    "title": "ABCA4 Gene Therapy for Stargardt Disease",
+    "institution": "University of Pennsylvania Scheie Eye Institute",
+    "status": "recruiting",
+    "summary": "A phase 1/2 study evaluating the safety and efficacy of subretinal delivery of a dual-vector AAV gene therapy designed to deliver a functional copy of the ABCA4 gene to retinal cells in patients with Stargardt disease.",
+    "lastUpdated": "2025-01-15"
+  },
+  {
+    "id": "rs-002",
+    "title": "Complement Inhibition in Stargardt Macular Degeneration",
+    "institution": "Moorfields Eye Hospital, London",
+    "status": "active",
+    "summary": "This study investigates whether inhibiting the complement system can slow the progression of retinal atrophy in patients with confirmed ABCA4 mutations and early-stage Stargardt disease.",
+    "lastUpdated": "2024-11-20"
+  },
+  {
+    "id": "rs-003",
+    "title": "Stem Cell-Derived RPE Transplantation Trial",
+    "institution": "RIKEN Center for Biosystems Dynamics Research, Japan",
+    "status": "active",
+    "summary": "A study exploring the transplantation of stem cell-derived retinal pigment epithelium sheets to replace damaged RPE in patients with advanced Stargardt disease.",
+    "lastUpdated": "2024-12-05"
+  },
+  {
+    "id": "rs-004",
+    "title": "Visual Cycle Modulator ALK-001 Long-Term Outcomes",
+    "institution": "Columbia University Medical Center",
+    "status": "completed",
+    "summary": "A follow-up study assessing the long-term safety and visual outcomes of participants who completed the ALK-001 Phase 2 trial for slowing lipofuscin accumulation in Stargardt disease.",
+    "lastUpdated": "2025-02-10"
+  },
+  {
+    "id": "rs-005",
+    "title": "Fenretinide Dose-Response Study in ABCA4 Carriers",
+    "institution": "Wilmer Eye Institute, Johns Hopkins University",
+    "status": "completed",
+    "summary": "A completed Phase 1 dose-response study that evaluated oral fenretinide for reducing A2E accumulation in the retinas of Stargardt disease patients with confirmed ABCA4 mutations.",
+    "lastUpdated": "2023-08-22"
+  }
+]

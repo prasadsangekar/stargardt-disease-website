@@ -1,0 +1,12 @@
+.medicineList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.emptyMessage {
+  color: var(--color-text-secondary);
+  font-style: italic;
+  padding: var(--spacing-lg);
+  text-align: center;
+}

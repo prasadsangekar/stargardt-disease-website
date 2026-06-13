@@ -1,0 +1,74 @@
+/* Layout component styles */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: var(--color-bg-primary);
+  border-bottom: 1px solid var(--color-border);
+  height: var(--nav-height);
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  height: 100%;
+  position: relative;
+}
+
+.logo {
+  color: var(--color-primary);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  text-decoration: none;
+  line-height: var(--line-height-tight);
+  white-space: nowrap;
+}
+
+.logo:hover {
+  color: var(--color-primary-dark);
+}
+
+.main {
+  flex: 1;
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md);
+  width: 100%;
+}
+
+.footer {
+  background-color: var(--color-bg-secondary);
+  border-top: 1px solid var(--color-border);
+  padding: var(--spacing-xl) var(--spacing-md);
+  margin-top: auto;
+}
+
+.footerContent {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .logo {
+    font-size: var(--font-size-lg);
+  }
+
+  .main {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+}

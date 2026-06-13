@@ -1,0 +1,26 @@
+[
+  {
+    "id": "med-001",
+    "name": "Tinlarebant",
+    "company": "Belite Bio",
+    "status": "NDA Submitted",
+    "description": "An oral therapy that reduces levels of serum retinol binding protein 4 (RBP4), limiting retinol transport to the eye and reducing formation of toxic bisretinoid byproducts that drive photoreceptor and RPE degeneration in Stargardt disease type 1. Completed the Phase 3 DRAGON trial and has Breakthrough Therapy Designation from the FDA. NDA submission completed in June 2026 with potential approval anticipated in early 2027.",
+    "targetApproval": "Q1 2027"
+  },
+  {
+    "id": "med-002",
+    "name": "Gildeuretinol (ALK-001)",
+    "company": "Alkeus Pharmaceuticals",
+    "status": "Phase 3",
+    "description": "A deuterium-modified vitamin A analog designed to reduce the formation of toxic vitamin A dimers in the retina without modulating the visual cycle. Has shown significant slowing of atrophic lesion growth in prior trials. Currently in the Phase 3 NORTHSTAR trial with over 400 patients treated to date. Holds multiple FDA expedited designations and EMA orphan drug status.",
+    "targetApproval": "2028 (estimated)"
+  },
+  {
+    "id": "med-003",
+    "name": "OCU410ST",
+    "company": "Ocugen",
+    "status": "Phase 2/3",
+    "description": "A modifier gene therapy using an AAV delivery platform to deliver the RORA (RAR-Related Orphan Receptor A) gene to the retina. RORA regulates pathways linked to Stargardt disease including lipofuscin formation, oxidative stress, complement activation, and cell survival. Has received Rare Pediatric Disease Designation and Orphan Drug Designation from the FDA. Phase 2/3 pivotal confirmatory trial cleared by the FDA with BLA filing targeted for 2027.",
+    "targetApproval": "2027-2028 (estimated)"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ct-001",
+    "name": "Phase 2 Tolerability and Effects of ALK-001 on Stargardt Disease (TEASE)",
+    "phase": "Phase 2",
+    "status": "active",
+    "eligibilitySummary": "Patients ages 8-70 with confirmed ABCA4 mutations. Evaluates long-term safety and tolerability of ALK-001 (C20-D3-retinyl acetate) and its effects on disease progression.",
+    "location": "Multiple Sites, United States",
+    "detailsUrl": "https://clinicaltrials.gov/study/NCT02402660",
+    "ageRange": { "min": 8, "max": 70 }
+  },
+  {
+    "id": "ct-002",
+    "name": "Subretinal Gene Therapy ACDN-01 for ABCA4-Related Stargardt Retinopathy (STELLAR)",
+    "phase": "Phase 1/2",
+    "status": "recruiting",
+    "eligibilitySummary": "Adults with ABCA4-related retinopathy. Open-label, single ascending dose study evaluating safety, tolerability, and biological effect of subretinal ACDN-01.",
+    "location": "Multiple Sites, United States",
+    "detailsUrl": "https://clinicaltrials.gov/study/NCT06467344",
+    "ageRange": { "min": 18, "max": 55 }
+  },
+  {
+    "id": "ct-003",
+    "name": "Phase 3 NORTHSTAR Trial of Gildeuretinol in Advanced Stargardt Disease",
+    "phase": "Phase 3",
+    "status": "enrolling",
+    "eligibilitySummary": "Patients with advanced Stargardt disease and atrophic lesions at baseline. Randomized, placebo-controlled, double-masked 24-month trial evaluating oral gildeuretinol acetate.",
+    "location": "Global, Multiple Sites",
+    "detailsUrl": "https://clinicaltrials.gov/study/NCT07419334",
+    "ageRange": { "min": 12, "max": 70 }
+  },
+  {
+    "id": "ct-004",
+    "name": "Sub-retinal Transplantation of hESC-Derived RPE Cells in Stargardt Macular Dystrophy",
+    "phase": "Phase 1/2",
+    "status": "completed",
+    "eligibilitySummary": "Adults with Stargardt macular dystrophy and significant central vision loss. Evaluates safety and tolerability of human embryonic stem cell-derived RPE cell transplantation.",
+    "location": "Jules Stein Eye Institute, UCLA, Los Angeles, CA",
+    "detailsUrl": "https://clinicaltrials.gov/study/NCT01469832",
+    "ageRange": { "min": 18, "max": 80 }
+  },
+  {
+    "id": "ct-005",
+    "name": "Natural History of Eye Diseases Related to ABCA4 Mutations",
+    "phase": "Observational",
+    "status": "active",
+    "eligibilitySummary": "Individuals ages 6-85 with genetically confirmed ABCA4 mutations. Longitudinal monitoring of visual function and disease progression over multiple years.",
+    "location": "National Eye Institute, Bethesda, MD",
+    "detailsUrl": "https://clinicaltrials.gov/study/NCT01736293",
+    "ageRange": { "min": 6, "max": 85 }
+  }
+]

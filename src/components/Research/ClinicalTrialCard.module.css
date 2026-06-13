@@ -1,0 +1,86 @@
+/* ClinicalTrialCard styles */
+.trialCard {
+  padding: var(--spacing-lg);
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: box-shadow var(--transition-fast);
+}
+
+.trialCard:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trialName {
+  font-size: var(--font-size-lg);
+  color: var(--color-primary-dark);
+  margin-bottom: var(--spacing-xs);
+}
+
+.trialMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.trialPhase {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background-color: var(--color-bg-accent);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.trialStatus {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+}
+
+.status-recruiting {
+  background-color: #e6f4ea;
+  color: var(--color-success);
+}
+
+.status-active {
+  background-color: #eaf2f8;
+  color: var(--color-primary);
+}
+
+.status-completed {
+  background-color: #f4f6f7;
+  color: var(--color-text-secondary);
+}
+
+.status-enrolling {
+  background-color: #fef9e7;
+  color: var(--color-warning);
+}
+
+.trialLocation {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.trialEligibility {
+  color: var(--color-text-primary);
+  line-height: var(--line-height-base);
+  margin-bottom: var(--spacing-sm);
+}
+
+.trialDetailsLink {
+  display: inline-block;
+  color: var(--color-text-link);
+  font-weight: 500;
+  text-decoration: none;
+  padding: var(--spacing-xs) 0;
+}
+
+.trialDetailsLink:hover {
+  text-decoration: underline;
+}

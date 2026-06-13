@@ -1,0 +1,37 @@
+.page {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.pageHeading {
+  font-size: var(--font-size-2xl);
+  color: var(--color-primary-dark);
+  margin-bottom: var(--spacing-lg);
+}
+
+.pageHeading:focus {
+  outline: none;
+}
+
+.description {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xl);
+  line-height: var(--line-height-base);
+}
+
+.errorContainer {
+  padding: var(--spacing-lg);
+  background-color: #fef2f2;
+  border: 1px solid #fca5a5;
+  border-radius: var(--radius-md);
+}
+
+.errorMessage {
+  color: var(--color-error);
+}
+
+.loadingMessage {
+  color: var(--color-text-secondary);
+  font-style: italic;
+}

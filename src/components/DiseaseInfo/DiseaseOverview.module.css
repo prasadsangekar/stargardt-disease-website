@@ -1,0 +1,27 @@
+/* DiseaseOverview component styles */
+.section {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.heading {
+  color: var(--color-primary);
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.subsection {
+  margin-bottom: var(--spacing-xl);
+}
+
+.subheading {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-sm);
+}
+
+.content {
+  color: var(--color-text-primary);
+  line-height: var(--line-height-base);
+}

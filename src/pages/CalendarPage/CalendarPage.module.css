@@ -1,0 +1,26 @@
+.page {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md);
+  overflow: hidden;
+}
+
+.heading {
+  font-size: var(--font-size-2xl);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-lg);
+  outline: none;
+}
+
+.calendarContainer {
+  margin-top: var(--spacing-md);
+  min-width: 0;
+}
+
+.liveRegion {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

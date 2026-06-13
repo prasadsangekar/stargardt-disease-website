@@ -1,0 +1,78 @@
+{
+  "keyFacts": [
+    { "label": "Also Known As", "value": "Stargardt macular dystrophy, fundus flavimaculatus, STGD1" },
+    { "label": "Prevalence", "value": "Approximately 1 in 8,000 to 10,000 people worldwide" },
+    { "label": "Typical Onset", "value": "Between ages 6 and 20, though adult-onset forms exist" },
+    { "label": "Affected Gene", "value": "ABCA4 (chromosome 1p22.1)" },
+    { "label": "Inheritance", "value": "Autosomal recessive — both parents must carry the mutation" },
+    { "label": "FDA-Approved Treatments", "value": "None currently; several therapies in late-stage clinical trials" }
+  ],
+  "cause": "Stargardt disease is caused by mutations in the ABCA4 gene. This gene provides instructions for a protein that clears toxic byproducts of the visual cycle from photoreceptor cells. When the ABCA4 protein is absent or defective, a substance called A2E (a component of lipofuscin) accumulates in the retinal pigment epithelium (RPE). Over time, this toxic buildup poisons RPE cells. As RPE cells die, the photoreceptors they support lose nourishment and also degenerate, leading to progressive central vision loss.",
+  "diagnosisMethods": [
+    { "name": "Fundus Examination", "description": "An eye doctor examines the retina for characteristic yellowish flecks (lipofuscin deposits) around the macula." },
+    { "name": "Fundus Autofluorescence (FAF)", "description": "A specialized imaging technique that reveals lipofuscin buildup as bright spots and areas of cell death as dark patches." },
+    { "name": "Optical Coherence Tomography (OCT)", "description": "A non-invasive scan that shows cross-sectional layers of the retina, revealing thinning and structural damage." },
+    { "name": "Electroretinography (ERG)", "description": "Measures the electrical response of photoreceptor cells to light, helping assess functional damage." },
+    { "name": "Genetic Testing", "description": "Confirms the diagnosis by identifying specific mutations in the ABCA4 gene. Essential for clinical trial eligibility." }
+  ],
+  "overview": {
+    "definition": "Stargardt disease is a genetic eye condition that causes vision loss in children and young adults. It affects the macula, the part of the eye used for sharp, central vision. Over time, cells in the macula break down. This makes it harder to see fine details like words on a page or faces.",
+    "symptoms": "The most common early sign is blurry or distorted central vision, usually starting between ages 6 and 20. Colors may look faded or washed out. Side vision usually stays normal, but the center of what you see becomes increasingly unclear. Some people also notice dark or blind spots in the middle of their vision.",
+    "progression": "Stargardt disease gets worse slowly over many years. Vision loss tends to happen in steps rather than a steady decline. Most people reach a level of legal blindness over time. The speed of change varies from person to person. Side vision is usually kept even in later stages."
+  },
+  "medicalScience": {
+    "geneticBasis": "Stargardt disease is caused by changes in the ABCA4 gene. This gene tells the body how to make a protein that cleans up waste in the retina after light is processed. When ABCA4 has a mutation, the cleanup protein does not work. Without this cleanup, toxic waste builds up in the cells that support your light sensors. Over time, those cells die.",
+    "biologicalMechanism": "When the ABCA4 protein fails, a fatty substance called lipofuscin builds up inside RPE cells. RPE stands for retinal pigment epithelium. These cells feed and support the photoreceptor cells that detect light. As lipofuscin builds up, it poisons the RPE cells. When RPE cells die, the photoreceptor cells above them lose support. They then start to break down too, causing vision loss.",
+    "inheritancePatterns": "Stargardt disease follows a recessive pattern. A child must get one faulty copy of the ABCA4 gene from each parent to develop it. People with just one faulty copy are called carriers. Carriers have normal vision and usually do not know they carry the gene. When two carriers have a child, there is a 25 percent chance the child will have Stargardt disease."
+  },
+  "precautions": [
+    {
+      "id": "p1",
+      "category": "uv-exposure",
+      "text": "Wear sunglasses that block 100 percent of UV-A and UV-B rays whenever you are outdoors. UV light can speed up the buildup of toxic waste in retinal cells."
+    },
+    {
+      "id": "p2",
+      "category": "uv-exposure",
+      "text": "Wear a wide-brimmed hat along with sunglasses on bright days. This gives extra shade from sunlight that comes from above or around your lenses."
+    },
+    {
+      "id": "p3",
+      "category": "dietary",
+      "text": "Eat foods rich in omega-3 fatty acids, such as salmon, walnuts, and flaxseed. These nutrients support overall retinal health."
+    },
+    {
+      "id": "p4",
+      "category": "dietary",
+      "text": "Do not take high-dose vitamin A pills unless your doctor tells you to. Too much vitamin A may speed up waste buildup in the retina."
+    },
+    {
+      "id": "p5",
+      "category": "lifestyle",
+      "text": "Use magnifying tools or large-print books to reduce eye strain when reading. These aids can help you stay independent."
+    },
+    {
+      "id": "p6",
+      "category": "lifestyle",
+      "text": "See a retina eye doctor on a regular basis to check for changes. Finding changes early can help you adjust your daily habits."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ABCA4",
+      "definition": "A gene that provides instructions for making a protein responsible for clearing waste products from retinal cells after light exposure."
+    },
+    {
+      "term": "lipofuscin",
+      "definition": "A yellowish fatty substance that accumulates in retinal cells when waste removal fails, eventually becoming toxic and damaging surrounding tissue."
+    },
+    {
+      "term": "retinal pigment epithelium",
+      "definition": "A layer of cells at the back of the eye that nourishes and supports photoreceptor cells, and removes waste products from the visual cycle."
+    },
+    {
+      "term": "photoreceptor",
+      "definition": "Light-sensitive cells in the retina (rods and cones) that convert light into electrical signals sent to the brain for vision."
+    }
+  ]
+}

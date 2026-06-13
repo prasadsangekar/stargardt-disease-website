@@ -1,0 +1,53 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-xs);
+  min-height: 60px;
+  min-width: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  background: var(--color-bg-primary);
+  transition: background-color var(--transition-fast);
+  overflow: hidden;
+}
+
+.day:hover {
+  background-color: var(--color-bg-accent);
+}
+
+.day:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-focus);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.today {
+  background-color: var(--color-bg-accent);
+  border-color: var(--color-primary);
+  font-weight: bold;
+}
+
+.empty {
+  background: transparent;
+  border-color: transparent;
+  cursor: default;
+}
+
+.empty:hover {
+  background: transparent;
+}
+
+.dayNumber {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+}

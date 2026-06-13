@@ -1,0 +1,50 @@
+/* GlossaryTerm tooltip styles */
+.glossaryTerm {
+  position: relative;
+  display: inline;
+  border-bottom: 1px dashed var(--color-primary-light);
+  cursor: help;
+  color: var(--color-text-primary);
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-inverse);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+  max-width: 300px;
+  width: max-content;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: var(--spacing-xs);
+}
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--color-primary-dark);
+}
+
+/* Ensure tooltip doesn't overflow on small screens */
+@media (max-width: 767px) {
+  .tooltip {
+    max-width: 220px;
+    left: 0;
+    transform: none;
+  }
+
+  .tooltip::after {
+    left: 20px;
+    transform: none;
+  }
+}

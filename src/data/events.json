@@ -1,0 +1,58 @@
+[
+  {
+    "id": "evt-001",
+    "name": "Tinlarebant NDA Submission Completed",
+    "type": "fda-approval",
+    "date": "2026-06-13",
+    "description": "Belite Bio completed its rolling New Drug Application submission to the FDA for tinlarebant, an oral therapy for Stargardt disease type 1. Submitted under Breakthrough Therapy Designation due to high unmet medical need. Priority review anticipated."
+  },
+  {
+    "id": "evt-002",
+    "name": "NORTHSTAR Phase 3 Trial First Patient Dosed",
+    "type": "clinical-trial-milestone",
+    "date": "2026-07-09",
+    "description": "Alkeus Pharmaceuticals dosed the first participant in the pivotal Phase 3 NORTHSTAR study evaluating oral gildeuretinol in people with advanced Stargardt disease and atrophic lesions at baseline. The randomized, placebo-controlled trial will run 24 months."
+  },
+  {
+    "id": "evt-003",
+    "name": "OCU410ST GARDian3 Interim Analysis",
+    "type": "clinical-trial-milestone",
+    "date": "2026-09-15",
+    "description": "Ocugen plans an interim analysis of the Phase 2/3 GARDian3 trial for OCU410ST (AAV5-hRORA) modifier gene therapy when 24 treated participants complete the eight-month follow-up period. Initial safety and efficacy signals expected."
+  },
+  {
+    "id": "evt-004",
+    "name": "Tinlarebant FDA PDUFA Decision Date",
+    "type": "fda-approval",
+    "date": "2027-01-15",
+    "description": "Anticipated FDA Prescription Drug User Fee Act (PDUFA) target action date for tinlarebant. If approved, it would be the first FDA-approved disease-modifying treatment for Stargardt disease type 1."
+  },
+  {
+    "id": "evt-005",
+    "name": "OCU410ST GARDian3 Topline Results",
+    "type": "clinical-trial-milestone",
+    "date": "2027-04-01",
+    "description": "Ocugen expects topline results from the Phase 2/3 GARDian3 pivotal confirmatory trial of OCU410ST for Stargardt disease. 63 participants were enrolled and dosed. Results will determine whether a BLA submission proceeds."
+  },
+  {
+    "id": "evt-006",
+    "name": "OCU410ST BLA Submission Target",
+    "type": "fda-approval",
+    "date": "2027-06-01",
+    "description": "Ocugen targets a Biologics License Application filing for OCU410ST by mid-2027, contingent on positive GARDian3 topline results. OCU410ST holds Rare Pediatric Disease Designation and Orphan Drug Designation from the FDA."
+  },
+  {
+    "id": "evt-007",
+    "name": "Belite Bio Tinlarebant UK MHRA Filing",
+    "type": "medicine-release",
+    "date": "2026-08-20",
+    "description": "Belite Bio plans to submit a marketing authorization application to the UK Medicines and Healthcare products Regulatory Agency (MHRA) for tinlarebant for the treatment of Stargardt disease type 1."
+  },
+  {
+    "id": "evt-008",
+    "name": "ARVO 2027 — Stargardt Therapies Symposium",
+    "type": "clinical-trial-milestone",
+    "date": "2027-05-05",
+    "description": "The Association for Research in Vision and Ophthalmology annual meeting will feature a symposium on emerging Stargardt disease therapies including gene therapy, visual cycle modulators, and cell replacement approaches."
+  }
+]
