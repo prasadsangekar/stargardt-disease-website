@@ -59,6 +59,20 @@ function DiseaseInfoContent() {
     loadData();
   }, []);
 
+  // Handle navigation to section anchors
+  const handleSectionClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    const href = e.currentTarget.getAttribute('href');
+    if (href?.startsWith('#')) {
+      e.preventDefault();
+      const targetId = href.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+        targetElement.focus({ preventScroll: true });
+      }
+    }
+  };
+
   if (error) {
     return (
       <div className={styles.errorContainer} role="alert" aria-live="assertive">
@@ -89,37 +103,37 @@ function DiseaseInfoContent() {
         <h2 className={styles.tableOfContentsHeading}>On This Page</h2>
         <ul className={styles.tableOfContentsList}>
           <li className={styles.tableOfContentsItem}>
-            <a href="#eye-diagram-heading" className={styles.tableOfContentsLink}>
+            <a href="#eye-diagram-heading" onClick={handleSectionClick} className={styles.tableOfContentsLink}>
               Eye Diagram
             </a>
           </li>
           <li className={styles.tableOfContentsItem}>
-            <a href="#key-facts-heading" className={styles.tableOfContentsLink}>
+            <a href="#key-facts-heading" onClick={handleSectionClick} className={styles.tableOfContentsLink}>
               Key Facts
             </a>
           </li>
           <li className={styles.tableOfContentsItem}>
-            <a href="#cause-heading" className={styles.tableOfContentsLink}>
+            <a href="#cause-heading" onClick={handleSectionClick} className={styles.tableOfContentsLink}>
               Cause
             </a>
           </li>
           <li className={styles.tableOfContentsItem}>
-            <a href="#diagnosis-heading" className={styles.tableOfContentsLink}>
+            <a href="#diagnosis-heading" onClick={handleSectionClick} className={styles.tableOfContentsLink}>
               Diagnosis
             </a>
           </li>
           <li className={styles.tableOfContentsItem}>
-            <a href="#overview-heading" className={styles.tableOfContentsLink}>
+            <a href="#overview-heading" onClick={handleSectionClick} className={styles.tableOfContentsLink}>
               Disease Overview
             </a>
           </li>
           <li className={styles.tableOfContentsItem}>
-            <a href="#medical-science-heading" className={styles.tableOfContentsLink}>
+            <a href="#medical-science-heading" onClick={handleSectionClick} className={styles.tableOfContentsLink}>
               Medical Science
             </a>
           </li>
           <li className={styles.tableOfContentsItem}>
-            <a href="#precautions-heading" className={styles.tableOfContentsLink}>
+            <a href="#precautions-heading" onClick={handleSectionClick} className={styles.tableOfContentsLink}>
               Precautions
             </a>
           </li>
